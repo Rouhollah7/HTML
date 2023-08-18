@@ -1,0 +1,24 @@
+img {
+    clear: both;
+    float: left;
+    margin: 10px;
+}
+
+
+
+body {
+    front-size: 24px;
+}
+
+
+
+#eka {
+    float: left;
+}
+
+
+
+#toka {
+    clear: both;
+    float: right;
+}

@@ -1,0 +1,25 @@
+table, td, th {
+    border: 1px solid;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+td.nth-chid(odd) {
+   Heksa-arvoja: #F00000; 
+}
+
+
+tr:nth-child(odd) {
+  background-color: #FFFFF0;
+}
+
+tr:nth-child(even) {
+  background-color: #FFF000; 
+}
+
+th{
+    background-color: red;
+}

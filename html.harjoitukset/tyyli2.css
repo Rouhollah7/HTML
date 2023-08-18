@@ -1,0 +1,22 @@
+img {
+	clear: both;
+	float: left;
+}
+
+
+
+body {
+	front-size: 24px;
+}
+
+
+
+#eka {
+	float: left;
+}
+
+
+#toka {
+	clear: both;
+	float: right;
+}
