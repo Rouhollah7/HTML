@@ -1,12 +1,12 @@
 header {
-    height: 100px;
-    background: #d90429;
+    height: 110px;
+    background: #7bdff2;
 }
 
 
 
 h1 {
-    color: #FFF;
+    color: #fff;
     padding: 22px 0 0 20px;
 }
 
@@ -15,8 +15,9 @@ h1 {
 nav {
     width: 400px;
     height: 20px;
-    background: #D6C136;
+    background: #1a759f;
     margin-left: 200px;
+    color: #fff;
 }
 
 
@@ -36,39 +37,46 @@ nav {
 
 
 section {
-    width: 1310px;
-    background: #B5C0EB;
+    width: 750px;
+    height: 800px;
+    background: #1a759f;
     margin-top: -20px;
 }
 
 
 
 h2 {
-    color: #000;
+    color: #fff;
     padding: 10 px 0 0 10px;
 }
 
 
 
 article {
-    width: 1310px;
-    background: #B5C0EB;
+    width: 750px;
+    background: #1a759f;
+    color: #fff;
 }
 
 
 
     article p {
-        padding: 10px;
+        padding: 18px;
     }
 
 
 
 aside {
-    width: 600px;
-    height: 458px;
-    background: #8592ED;
+    width: 500px;
+    height: 818px;
+    background: #1a759f;
     float: right;
-    margin-top: -1px;
+    margin-top: -19px;
+}
+.sivu{
+    width: 480px;
+    padding-left: 20px;
+    height: 500px;
 }
 
 
@@ -81,8 +89,8 @@ h3 {
 
 
 aside article {
-    width: 200px;
-    background: #8592ED;
+    width: 220px;
+    /*background: #;*/
     color: #fff;
 }
 
@@ -90,8 +98,9 @@ aside article {
 
 footer {
     height: 40px;
-    background: #d90429;
+    background: #34a0a4;
     margin-top: -16px;
+    color: #fff;
 }
 
 
@@ -99,3 +108,7 @@ footer {
     footer p {
         padding: 10px 0 0 10px;
     }
+
+body {
+    background: #168aad;
+}
