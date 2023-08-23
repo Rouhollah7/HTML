@@ -1,0 +1,99 @@
+#name {
+    color: green;
+}
+
+
+
+.number {
+    font-size: 16px;
+}
+
+
+
+#number1 {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+#number2 {
+    color: blue;
+    font-size: 24px;
+}
+
+
+
+#number3 {
+    color: orange;
+    font-size: 28px;
+}
+
+#number4 {
+    color: pink;
+    font-size: 36px;
+}
+
+#number5 {
+    color:000;
+    font-size: 44px ;
+}
+
+#number6 {
+    color:fuchsia;
+    font-size:55px;
+}
+#number7 {
+    color:firebrick;
+    font-size:66px;
+}
+#number8 {
+    color:chocolate;
+    font-size:30px;
+}
+#number9 {
+    color:chartreuse;
+    font-size:20px;
+}
+#number10 {
+    color:wheat;
+    font-size:13px;
+}
+
+
+
+#name-google-font {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+#font1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#font2 {
+    font-family: 'Lobster', cursive;
+}
+
+
+
+#font3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#font4 {
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+#font5 {
+    font-family: 'Oswald', sans-serif;
+}
