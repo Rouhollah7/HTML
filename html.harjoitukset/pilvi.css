@@ -1,0 +1,232 @@
+body {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+main {
+    display: table;
+    width: 75%;
+    margin: 10px auto;
+    overflow: auto;
+    background: #FFF;
+}
+p {
+    margin: 10px 0;
+    line-height: 1.4em;
+}
+h1 {
+    text-transform: capitalize;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+.clearfix:after {
+    clear: both;
+}
+
+.content-header {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.content-footer {
+    border-top: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header {
+    border-bottom: 7px solid #4EA0D9;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+#titles {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+}
+
+
+#left {
+    float: left;
+    width: 48%;
+}
+
+
+    #left ul li {
+        margin-bottom: 30px;
+    }
+
+    #left ul img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    #left ul h4 {
+        padding-top: 5px;
+    }
+
+#right {
+    float: right;
+    width: 48%;
+}
+
+#contact-form {
+    padding: 30px 20px 20px 20px;
+    border: 4px solid #4EA0D8;
+    border-radius: 10px;
+    overflow: auto;
+    background: #F4F4F4;
+}
+
+    #contact-form div {
+        margin-bottom: 20px;
+    }
+
+    #contact-form label {
+        display: inline-block;
+        width: 100px;
+        font-weight: bold;
+    }
+
+    #contact-form input[type='text'],
+    #contact-form input[type='email'] {
+        height: 25px;
+        width: 50%;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+    }
+    #contact-form input[type='submit'] {
+        display: block;
+        float: right;
+        padding: 12px 17px;
+        background: #FA6E3E;
+        color: #FFF;
+        border: 0;
+        border-radius: 5px;
+    }
+
+        #contact-form input[type='submit']:hover {
+            background: #D55427;
+            cursor: pointer;
+        }
+
+    #contact-form .content-footer p {
+        font-style: italic;
+        text-align: center;
+        color: #777;
+        font-size: .8em;
+    }
+
+#testimonials {
+    display: table-row;
+    margin: 40px 0;
+    color: #777;
+}
+
+    #testimonials img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    #testimonials blockquote {
+        padding: -30px 30px 20px 30px;
+        width: 90%;
+    }
+
+#main-footer {
+    border-top: 1px solid #CCC;
+    text-align: center;
+    color: #AAA;
+}
+
+@media (max-width:1023px) {
+    #container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    #left, #right {
+        width: 100%;
+        clear: both;
+        float: left;
+    }
+
+        #left .points li {
+            width: 80%;
+            margin: 0 auto 30px;
+            padding: 8px;
+            background: #EEE;
+            border-radius: 5px;
+        }
+
+        #left .points img {
+            margin-top: 10px;
+        }
+
+    #testimonials img {
+        display: block;
+        margin: 20px auto;
+        float: none;
+    }
+}
+@media (max-width: 799px) {
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    #left, #right {
+        width: 100%;
+        clear: both;
+    }
+
+    #contact-form {
+        clear: both;
+        padding: 20px 30px 30px 30px;
+    }
+}
+@media (min-width: 479px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}

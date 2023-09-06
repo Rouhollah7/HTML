@@ -1,78 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <tittle></tittle>
-    <link href="tyyli10.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Pilvi</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="pilvi.css">
 </head>
-<body>
-    <h1></h1>
-    <img src="logo.jpg" class="center" />
-    <center>Pilvi-idea</center>
-    <hr id="hr1">
-    <center><h1>Tervetuloa etusivullemme</h1></center>
-    <center><p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b></p></center>
-    <h3>.<img src="number1.png" <p>Ensimmäinen pointti</p> </h3>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    <h3>.<img src="number2.png" <p>Toinen pointti</p> </h3>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    <h3>.<img src="number3.png" <p>Kolmas pointti</p> </h3>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    <h3>.Tietoja meistä</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+<body>  
     <main>
 
-        <aside>
+        <header>
+            <img id="logo" src="logo.jpg" >
+        </header>
 
-            <fieldset>
+        <section id="titles">
+            <h1>Tervetuloa etusivullemme</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        </section>
 
-                <legend>Login</legend>
+        <article id="left">
+            <ul class="points">
+                <li>
+                    <img src="number1.png" alt="Point 1">
+                    <h4>Ensimm&auml;inen pointti</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Non dolore voluptatem recusandae maxime, a saepe.</p>
+                </li>
+                <li>
+                    <img src="number2.png" alt="Point 2">
+                    <h4>Toinen pointti</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Non dolore voluptatem recusandae maxime, a saepe.</p>
+                </li>
+                <li>
+                    <img src="number3.png" alt="Point 3">
+                    <h4>Kolmas pointti</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Non dolore voluptatem recusandae maxime, a saepe.</p>
+                </li>
+            </ul>
+            <footer class="content-footer">
+                <h3>Tietoa meist&auml;</h3>
+                <p>In rhoncus euismod suscipit. Aliquam erat volutpat. Pellentesque blandit sed diam eu mollis. Quisque pretium felis et enim finibus venenatis. Praesent ligula ex</p>
+            </footer>
+        </article> 
 
-                <table>
+        <article id="right">
+            <form id="contact-form">
+                <header class="content-header">
+                    <h3>Aloitus</h3>
+                    <p>Vero, facere omnis debitis molestias, a possimus alias in tenetur laboriosam sint quae dolorem sed delectus facilis voluptas.</p>
+                </header>
+                <div>
+                    <label for="name">Nimi *</label>
+                    <input id="name" type="text">
+                </div>
+                <div>
+                    <label for="email">S&auml;hk&ouml;posti *</label>
+                    <input id="email" type="email">
+                </div>
+                <div>
+                    <label for="company">Yritys</label>
+                    <input id="company" type="text">
+                </div>
+                <div>
+                    <label for="phone">Puhelin</label>
+                    <input id="phone" type="text">
+                </div>
+                <div class="clearfix">
+                    <em>* Vaaditut kent&auml;t</em>
+                    <input type="submit" value="Ota yhteytt&auml;">
+                </div>
+            </form>
+        </article> 
 
-                    <h2>Aloitus</h2>
+        <section id="testimonials">
+            <img src="testimonial.png" alt="Asiakkaan suositus">
+            <blockquote>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam mi nibh. Curabitur malesuada odio ut neque varius rutrum. Duis cursus pharetra justo, sit amet lacinia nulla eleifend maximus. Curabitur eget eros at arcu interdum tempor. Integer ut aliquet tellus. Cras eget odio eu nulla congue congue. Sed congue metus justo" - <strong>John Doe From SomeCompany</strong>
+            </blockquote>
+        </section>
 
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <footer id="main-footer">
+            <small>Copyright &copy; Rouhollah Tajik 2023</small>
+        </footer>
 
-                    <tr><td>Nimi</td><td><input type="text"></td></tr>
-
-                    <tr><td>Sähköposti</td><td><input type="text"></td></tr>
-
-                    <tr><td>Yritys</td><td><input type="text"></td></tr>
-
-                    <tr><td>Puhelinnumero</td><td><input type="text"></td></tr>
-
-                    <p>* Vaaditut kentät</p>
-
-                    <hr />
-
-                </table>
-
-            </fieldset>
-
-        </aside>
-
-    </main>
-    <br />
-    <br />
-    <br />
-    <p><img widht="80px" height="50px" src="testimonial.png" id="kuva" /> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    <br />
-    <hr />
-    <center>Copyright© Rouhollah Tajik 2023</center>
-    <p>
-        <img widht="650px" height="650px" src="logo.jpg" />
-        <h1 id="pilv">Pilvi-idea</h1>
-        <h1 id="terve">Tervetuloa etusivullemme</h1>
+    </main> 
 </body>
 </html>
-<aside>
-
-    <article>
-
-        <h3>Tiesitkö?</h3>
-
-        <p>Minulla ei ole kotieläimiä.</p>
-
-    </article>
-
-</aside>

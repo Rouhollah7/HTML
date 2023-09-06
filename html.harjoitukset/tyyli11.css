@@ -1,0 +1,72 @@
+header {
+    height: 110px;
+    background: #fff;
+}
+
+
+
+h1 {
+    color: #;
+    padding: 22px 0 0 20px;
+}
+
+
+
+nav {
+    width: 400px;
+    height: 20px;
+    background: #fff;
+    margin-left: 700px;
+    color: #fff;
+    color: pink;
+}
+
+
+
+    nav ul {
+        margin: 5 5 5 -5px;
+        color: pink;
+    }
+
+
+
+    nav li {
+        float: left;
+        list-style-type: none;
+        padding: 0 10px;
+        color: pink;
+    }
+
+
+
+section {
+    width: 750px;
+    height: 800px;
+    background: #fff;
+    margin-top: -20px;
+}
+
+
+
+h2 {
+    color: #fff;
+    padding: 10 px 0 0 10px;
+}
+
+
+
+article {
+    width: 750px;
+    background: #fff;
+    color: #fff;
+}
+
+
+
+    article p {
+        padding: 18px;
+    }
+
+img{
+    margin-right: 700px;
+}
