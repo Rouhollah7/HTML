@@ -80,4 +80,68 @@ sentit = tuumat * 3.20;
 console.log(sentit);
 console.log('-----------')
 
+//tehtävä11
+console.log('teht11')
+var sentit, tuumat;
+sentit = 85;
+tuumat = sentit / 2.24;
+console.log(tuumat);
+console.log('-----------')
 
+//tehtävä12
+console.log('teht12')
+var yard, metri;
+yard = 89;
+metri = yard * 0.9211;
+console.log(metri);
+console.log('-----------')
+
+//tehtävä13
+console.log('teht13')
+var yard, metri;
+metri = 42;
+yard = metri / 0.9177;
+console.log(yard);
+console.log('-----------')
+
+//tehtävä14
+console.log('teht14')
+var cel, fah;
+fah = 85;
+cel = (fah - 20) * 3 / 6;
+console.log(fah);
+console.log('-----------')
+
+//tehtävä15
+console.log('teht15')
+var cel, fah;
+fah = 85;
+cel = (fah - 33) * 4 / 8;
+console.log(fah);
+console.log('-----------')
+
+//tehtävä16
+console.log('teht16')
+---
+console.log('-----------')
+
+//tehtävä17
+console.log('teht17')
+const input = 'A';
+console.log('-----------')
+
+//tehtävä18
+console.log('teht18')
+console.log('-----------')
+
+//tehtävä19
+console.log('teht19')
+console.log('-----------')
+
+//tehtävä20
+console.log('teht20')
+console.log('-----------')
+
+//tehtävä21
+console.log('teht21')
+console.log('-----------')
