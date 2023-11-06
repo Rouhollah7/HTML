@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Lomake.css">
+  <script src="Lomake.js" charset="utf-8"></script>
+</head>
+<body>
+  <form class="" action="index.html" method="post">
+    <fieldset>
+      <table>
+        <tr>
+          <td>
+            <label for="etunimi">Anna etunimi:</label>
+          </td>
+          <td>
+            <input type="text" id="etunimi" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="sukunimi">Anna sukunimi:</label>
+          </td>
+          <td>
+            <input type="text" id="sukunimi" value="">
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <p>Tulin koululle:</p>
+      <input type="radio" name="koululle" value="kävellä">Kävellä<br />
+      <input type="radio" name="koululle" value="autolla">Autolla<br />
+      <input type="radio" name="koululle" value="junalla">Junalla<br />
+      <input type="radio" name="koululle" value="bussilla">Bussilla<br />
+      <input type="radio" name="koululle" value="pyörällä">Pyörällä
+    </fieldset>
+    <fieldset>
+      <p>Lempiaine:</p>
+      <select id="aine" name="aine">
+        <option value="">Valitse joku vaihtoehto</option>
+        <option value="Ohjelmointi">Ohjelmointi</option>
+        <option value="Ruotsi">Ruotsi</option>
+        <option value="Matikka">Matikka</option>
+        <option value="Enkku">Enkku</option>
+        <option value="Ruokailu">Ruokailu</option>
+      </select><p></p>
+      <button type="button" name="button" onclick="tarkasta()">Lähetä</button>
+    </fieldset>
+  </form>
+  <p id="lomake"></p>
+</body>
+</html>
+

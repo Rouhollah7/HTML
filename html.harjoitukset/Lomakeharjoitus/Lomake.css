@@ -1,0 +1,12 @@
+fieldset {
+    margin: 0 auto;
+    width: 350px;
+    background-color: antiquewhite;
+}
+
+#lomake {
+    margin: 0 auto;
+    width: 300px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="Teht‰v‰1-11.css">
+    <script type="text/javascript" src="Teht‰v‰1-11.js">
+    </script>
+</head>
+<body>
+    <article class='vieri' id='yksi'>
+        <h1>Teht 1</h1>
+        <p>
+            Anna parillinen luku, niin tulostan ne kaikki parilliset luvut siihen asti kuin
+            poislukien 0:n
+        </p>
+        <form class="" action="index.html" method="post">
+            <p>Anna parillinen luku: <input type="text" id="luku" value=""></p>
+            <button type="button" name="button" onclick="tulosta()">Tulosta parilliset</button>
+            <div id="parillinen"></div>
+        </form>
+    </article>
+    <article class='vieri' id='kaksi'>
+        <h1>Teht 2</h1>
+        <p>
+            Anna joku sanan salasanaksi muutan sit‰ siten, ett‰ laitan joka toiseksi kirjaimeksi ison ÷-kirjaimen, eli
+            jos sana on Kaappi --> K÷a÷a÷p÷p÷i÷
+        </p>
+        <form class="" action="index.html" method="post">
+            <p>Anna sana: <input type="text" id="sana" value=""></p>
+            <button type="button" name="button" onclick="muutaluku()">Muuta salasanaksi</button>
+            <div id="salasana"></div>
+        </form>
+    </article>
+    <article class='vieri' id='kolme'>
+        <h1>Teht 3</h1>
+        <p>
+            Anna sana niin katson onko antamasi sanassa ˆ-kirjainta
+            ja kirjoitan vastaukseksi joko: on tai ei ole
+        </p>
+        <p>Anna sana: <input type="text" id="ˆsana" value=""></p>
+        <button type="button" name="button" onclick="tarka()">Onko ˆ-kirjain</button>
+        <div id="vastaus"></div>
+    </article>
+
+
+    <article class="vieri" id="nelja">
+        <h1>Teht 4</h1>
+        <p>Anna luku niin lasken luvun kertoman (esim: 7 -&gt; 7*6*5*4 = 5040)</p>
+        <form class="" action="index.html" method="post">
+            <p>Anna luku, josta lasketaan kertoma: <input type="text" id="kert" value=""></p>
+            <button type="button" name="button" onclick="kerto()">Laske kertoma</button>
+            <div id="kertomav"></div>
+        </form>
+    </article>
+
+
+    <article class='vieri' id='viisi'>
+        <h1>Teht 5</h1>
+        <p>
+            Kirjoitan ohjelma, joka tulostaa luvut 1-100 siten, ett‰ jos luku on 3:lla jaollinen, tulostan hip ja
+            viidell‰ jaollinen tulostan heijaa ja jos sek‰ viidell‰ ett‰ kolmella
+            jaollinen, tulostetan hipheijaa
+        </p>
+        <button type="button" id="button" onclick="HeiHeippa()">Tulosta</button>
+        <div id="tulost"></div>
+    </article>
+    <article class='vieri' id='kus'>
+        <h1>Teht 6</h1>
+        <p>Kirjoitan ohjelma, joka tulostaa 10 ensimm‰inen numero</p>
+        <button type="button" id="seiska" onclick="ekatulos()">10 Ensimm‰inen</button>
+        <div id="luktulost"></div>
+    </article>
+    <article class='vieri' id='kasi'>
+        <h1>Teht 7</h1>
+        <p>Kirjoita ohjelma, joka laskee 10 ensimm‰ist‰ numeroa yhteen</p>
+        <button type="button" id="button" onclick="yht()">Laske 10 eka yhteen</button>
+        <div id="kymluk"></div>
+    </article>
+    <article class='vieri' id='ysi'>
+        <h1>Teht‰v‰ 8</h1>
+        <p>Anna kahta lukua niin lasken ensimm‰isen potenssiin toinen esim. 5 ja 2 = 5<sup>2</sup> = 25</p>
+        <p>Anna korotettava luku: <input type="text" id="kor" value=""> </p>
+        <p>Anna potenssi: <input type="text" id="pot" value=""> </p>
+        <button type="button" id="button" onclick="potensin()">Laske</button>
+        <div id="kasluk"></div>
+    </article>
+    <article class='vieri' id='viisi'>
+        <h1>Teht 9</h1>
+        <p>Kirjoitan ohjelma, joka etsii annetusta luvuista suurimman ja pienimm‰n arvon</p>
+        <p>Anna 1. luku: <input type="text" id="taulukko[0]" value=""> </p>
+        <p>Anna 2. luku: <input type="text" id="taulukko[1]" value=""> </p>
+        <p>Anna 3. luku: <input type="text" id="taulukko[2]" value=""> </p>
+        <p>Anna 4. luku: <input type="text" id="taulukko[3]" value=""> </p>
+        <p>Anna 5. luku: <input type="text" id="taulukko[4]" value=""> </p>
+        <button type="button" id="button" onclick="etsisurpi()">Etsin suurin ja pienin</button>
+        <div id="ysluk"></div>
+    </article>
+    <article class='vieri' id='kymppi'>
+        <h1>Teht 10</h1>
+        <p>Muokan lukuteht‰v‰‰ siten, ett‰ se arpoo kirjaimen ÷:n sijasta</p>
+        <p>
+            Anna muokattava luku:  <input type="text" id="luk" value="">
+            <button type="button" id="button" onclick="muokkaaluku()">Muunna luvuksi</button>
+            <div id="lukk"></div>
+    </article>
+    <article class='vieri' id='ykstoist'>
+        <h1>Teht 11</h1>
+        <p>Anna kahta numeroa (toinen tulee olla isompi) tulostan sen v‰lill‰ parilliset ja parittomat numerot sek‰ niiden summat</p>
+        <p>Anna pienempi numero:  <input type="text" id="pnro" value=""></p>
+        <p>Anna isompi numero:  <input type="text" id="inro" value=""></p>
+        <button type="button" id="button" onclick="luvut()">N‰yt‰ parilliset ja parittomat erikseen sek‰ niiden summa</button>
+        <div id="lukujentul"></div>
+    </article>
+</body>
+</html>
